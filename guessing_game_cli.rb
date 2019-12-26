@@ -3,7 +3,7 @@ def run_guessing_game
   random_number = (rand(6) + 1).to_s
   guessed_number = gets.strip.to_s
     if guessed_number == random_number
-        return "You guessed the correct number!"
+         "You guessed the correct number!"
     elsif guessed_number == "exit"
         return "Goodbye!"
     end 
